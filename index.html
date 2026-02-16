@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biopage</title>
+
+</head>
+<link rel="stylesheet" href="biopage.css">
+<body>
+
+    <nav class="navbar">
+      <div class="nav-container">
+        <h1 class="logo"></h1>
+        <ul class="nav-menu">
+            <li>
+                <a href="#home">Home</a>
+            </li>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#contact" >Contact</a>
+            </li>
+
+            <li>
+                <a href="#qr">Details</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+
+ <section id="home" class="hero">
+
+    <img src="giphy.gif" class="hero-bg">
+
+    <div class="hero-content">
+        <img src="subham.jpg" alt="profile picture" class="profile-img">
+        <h1 class="h">Subham Nayak</h1>
+        <p class="h">Computer Science & Engineering</p>
+    </div>
+
+</section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h1 class="a">About Me</h1>
+            <p class="a1">As a Computer Science Engineering student, 
+                I am deeply passionate about learning how technology works and how it can be used to solve real-life problems.
+                 I enjoy exploring different areas of computer science such as web development, 
+                 programming and problem-solving.
+                  Along with technical skills, I strongly believe in creative learning—experimenting,
+                   building projects, and understanding concepts through practical implementation.
+                    I love creating things that are not only functional but also visually appealing and user-friendly.
+                     Every day, I try to learn something new, improve my skills, and challenge myself with new ideas.
+                      My goal is to grow as a developer and use my creativity and knowledge to build meaningful and innovative projects in the future.</p>
+            <ul>
+                <li>C language</li>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript</li>
+                <li>java(oops)</li>
+               
+                <li>logical thinker</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="qr" class="qr-section">
+    <div class="container">
+        <h2 class="qr-title">Connect With Me</h2>
+
+        <div class="qr-wrapper">
+
+            <!-- LinkedIn -->
+            <div class="qr-card">
+                <div class="qr-text">
+                    <h3>LinkedIn</h3>
+                    <p>To view my professional profile and experience, scan this QR code.</p>
+                </div>
+                <div class="qr-image">
+                    <img src="linkedin_qr.png" alt="LinkedIn QR">
+                </div>
+            </div>
+
+            <!-- Instagram -->
+            <div class="qr-card">
+                <div class="qr-text">
+                    <h3>Instagram</h3>
+                    <p>To explore my creative posts and updates, scan this QR code.</p>
+                </div>
+                <div class="qr-image">
+                    <img src="instagram_qr.png" alt="Instagram QR">
+                </div>
+            </div>
+
+            <!-- YouTube -->
+            <div class="qr-card">
+                <div class="qr-text">
+                    <h3>YouTube</h3>
+                    <p>To watch my videos and tech content, scan this QR code.</p>
+                </div>
+                <div class="qr-image">
+                    <img src="youtube_qr.png" alt="YouTube QR">
+                </div>
+            </div>
+
+            <div class="qr-card">
+                <div class="qr-text">
+                    <h3>LeetCode</h3>
+                    <p>To view my coding problems and solutions, scan this QR code.</p>
+                </div>
+                <div class="qr-image">
+                    <img src="leetcode_qr.png" alt="LeetCode QR">
+                </div>
+            </div>
+
+            <div class="qr-card">
+                <div class="qr-text">
+                    <h3>Face Book</h3>
+                    <p>To view my social media posts and updates, scan this QR code.</p>
+                </div>
+                <div class="qr-image">
+                    <img src="facebook_qr.png" alt="Facebook QR">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form id="contactform">
+                <label>Name:</label>
+                <input type="text" id="name" placeholder="Your Name">
+
+                <label>Email:</label>
+                <input type="email" id="Email" placeholder="Your Email">
+
+                <label>Message:</label>
+                <input type="text" id="Message" placeholder="Enter your message">
+
+                <button type="submit" class="button">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="biopage.js"></script>
+</body>
+</html>
